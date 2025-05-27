@@ -5,9 +5,9 @@ hive -e "CREATE  TABLE IF NOT EXISTS prod.PATIENT_delta(PID INT,F_NAME STRING,L_
 
 hive -e "CREATE  TABLE  IF NOT EXISTS prod.STAFF_delta(EMP_ID INT,F_NAME STRING,L_NAME STRING,B_DATE TIMESTAMP,PHONE INTEGER,AADHAR INTEGER,JOIN_DATE TIMESTAMP,SYS_CRE_DATE TIMESTAMP ,SYS_UPD_DATE TIMESTAMP,SEX STRING,P_ADD STRING,E_ADD STRING,BL_GR STRING,POL_NO INTEGER,D_ID STRING,CLAIM_ID INTEGER,POL_TYPE_ID INTEGER,MED_HIST STRING)  ROW format delimited FIELDS TERMINATED BY ',' STORED AS TEXTFILE;"
 
-hostname="jdbc:postgresql://db-insurance.cr22ga0waq41.ap-south-1.rds.amazonaws.com:5432/insurance"
+hostname="jdbc:postgresql://db-insurance.**********.ap-south-1.rds.amazonaws.com:****/insurance"
 user="postgres"
-pwd="srjAwsRds"
+pwd="*********"
 
 #PATIENT
 
