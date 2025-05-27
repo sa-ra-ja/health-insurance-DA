@@ -1,0 +1,12 @@
+claim_id,status,issue_date,issue_amt,hos_id,doct_id,des_id,cl_dn_dt,bill_id,sys_upd_date 
+3000,inprocess,2019-02-12,12000,H_01,1001,DIS_101,null,BILL_01,null
+3001,inprocess,2019-02-13,11000,H_02,1002,DIS_102,null,BILL_02,null
+3002,inprocess,2019-02-14,13000,H_03,1003,DIS_103,null,BILL_03,null
+3003,inprocess,2019-02-15,14000,H_04,1004,DIS_104,null,BILL_04,null
+3004,inprocess,2019-02-16,12000,H_05,1005,DIS_105,null,BILL_01,null
+3005,inprocess,2019-02-17,11000,H_06,1006,DIS_101,null,BILL_02,null
+3006,inprocess,2019-02-18,13000,H_07,1001,DIS_102,null,BILL_03,null
+3007,inprocess,2019-02-19,14000,H_08,1002,DIS_103,null,BILL_04,null
+3008,inprocess,2019-02-20,12000,H_09,1003,DIS_104,null,BILL_01,null
+3009,inprocess,2019-02-21,11000,H_10,1004,DIS_105,null,BILL_02,null
+3010,inprocess,2019-02-22,13000,null,1005,DIS_101,null,BILL_03,null

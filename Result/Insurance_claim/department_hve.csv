@@ -1,0 +1,11 @@
+D_ID,D_NAME,P_ADD
+10,Administration,P_101
+20,Marketing,P_102
+30,Purchasing,P_103
+40,Human Resources,P_104
+50,Shipping,P_105
+60,IT,P_106
+70,Public Relations,P_107
+80,Sales,P_108
+90,Executive,P_109
+100,Finance,P_110

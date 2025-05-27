@@ -1,0 +1,11 @@
+HOS_ID,HOS_NAME,P_ADD,IS_NETWORKED
+H_01,Ann  Robert H,P_101,YES
+H_02,Aspirus Wausau,P_102,YES
+H_03,Aurora St. Lukes,P_103,YES
+H_04,Banner-University,P_104,YES
+H_05,Baylor,P_105,NO
+H_06,Baystate Medical,P_106,NO
+H_07,Bethesda,P_107,NO
+H_08,Boston,P_108,YES
+H_09,Brigham,P_109,NO
+H_10,Carle,P_110,YES

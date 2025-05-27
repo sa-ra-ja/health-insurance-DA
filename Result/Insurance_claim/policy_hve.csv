@@ -1,0 +1,7 @@
+pol_type_id,pol_type,tenure,benefit,premium
+111,TERM INSURANCE,1,In thid you will get all family insurance for 5 years,1000
+112,PERMANENT INSURANCE,3,PERMANENT INSURANCE,2000
+113,Whole Life,2,Traditional Whole Life,5000
+114,FULL CLAIM,4,FULL CLAIM,2000
+115,FULL FAMILY,5,FULL FAMILY,5500
+116,SINGLE PERSON,5,SINGLE PERSON,10000
