@@ -1,0 +1,19 @@
+1.count check 
+source == target
+select count(*) from rdstable; == select count(*) from hivetable;
+2.null check
+source == 0
+target == 0
+select count(*) from rdstable where id is null; == 0
+select count(*) from hivetable where id is null; == 0
+3.duplicate check
+source
+target
+select count(*) from hivetable group by id having count(*) > 1;
+4.Referral Integrity check(RI check)
+if patient has claim in claim table ,patient id must present in patient table
+source
+target
+select count(*) from hivetable left join parenthivetable on hivetable.id=parenttable.id where parenttable.id is null;
+select count(*) from claim_hve left join patient_hve on claim_hve.pid=patient_hve.pid where patient_hve.id is null;
+

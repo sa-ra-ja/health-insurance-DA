@@ -1,0 +1,1 @@
+sqoop list-tables --connect jdbc:postgresql://db-insurance.cr22ga0waq41.ap-south-1.rds.amazonaws.com:5432/insurance --username postgres --password srjAwsRds
