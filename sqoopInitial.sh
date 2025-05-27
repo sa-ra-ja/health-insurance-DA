@@ -5,9 +5,9 @@
 ### LOADINF REFERENCE TABLES/STATIC TABLES
 hive -e "drop database prod cascade;"
 hive -e "create database prod;"
-hostname="jdbc:postgresql://db-insurance.cr22ga0waq41.ap-south-1.rds.amazonaws.com:5432/insurance"
+hostname="jdbc:postgresql://db-insurance.**********.ap-south-1.rds.amazonaws.com:****/insurance"
 user="postgres"
-pwd="srjAwsRds"
+pwd="*********"
 ###ADDRESS
 sqoop import --connect $hostname --username $user --password $pwd -m 1 --fetch-size 10 --table address --create-hive-table --hive-table prod.address_hve --hive-import
 
